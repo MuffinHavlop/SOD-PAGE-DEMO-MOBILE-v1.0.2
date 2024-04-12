@@ -1,0 +1,51 @@
+
+body {
+  background-color: #363e44;
+}
+.header-pic{
+  position: relative;
+  margin-top: 45%;
+  margin-left: 25%;
+  border-radius: 50%;
+}
+.bg-pic{
+  position: absolute; 
+  top: 0; 
+  left: 0; 
+  width: 100%;
+
+}
+.hieu-hieu{
+  padding:10px;
+  opacity: 0; /* Initially hidden */
+  margin-left:30%;
+animation: fadeIn 4s ease-in-out forwards;
+
+}
+.chugn{
+  padding: 10px;
+  opacity: 0; /* Initially hidden */
+  margin-left: 15%;
+animation: fadeIn 5s ease-in-out forwards;
+
+}
+.phuc-beo{
+  padding: 10px;
+  opacity: 0; /* Initially hidden */
+  margin-left: 30%;
+animation: fadeIn 8s ease-in-out forwards;
+
+}
+.order{
+  color:rgb(219, 238, 255);
+  font-family: fantasy;
+  margin-left: 27%;
+  animation: fadeIn 2s ease-in-out forwards;
+  font-size: 70px;
+ 
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
